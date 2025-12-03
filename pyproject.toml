@@ -1,0 +1,28 @@
+[project]
+name = "comfyui-random-prompt-builder"
+description = "Advanced AI-powered prompt generation using local GGUF models with character controls, style presets, and model-specific formatting"
+version = "3.0.0"
+license = { text = "MIT" }
+dependencies = [
+    "llama-cpp-python>=0.2.0",
+    "numpy"
+]
+
+[project.urls]
+Repository = "https://github.com/btitkin/ComfyUI-RandomPromptBuilder"
+Homepage = "https://github.com/btitkin/ComfyUI-RandomPromptBuilder"
+
+[tool.comfy]
+PublisherId = "btitkin"
+DisplayName = "Random Prompt Builder"
+Icon = ""
+
+[[tool.comfy.nodes]]
+name = "RandomPromptBuilder"
+display_name = "Random Prompt Builder (GGUF)"
+description = "Generate structured prompts using local GGUF language models with advanced character controls and style presets"
+
+[[tool.comfy.nodes]]
+name = "PromptDisplayNode"
+display_name = "Prompt Display (Preview Text)"
+description = "Display and preview generated prompts in the ComfyUI interface"
