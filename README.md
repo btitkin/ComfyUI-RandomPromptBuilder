@@ -1,4 +1,4 @@
-# Pandom Prompt Builder for ComfyUI
+# Random Prompt Builder for ComfyUI
 
 Advanced AI-Powered Prompt Generation Custom Node for ComfyUI
 
@@ -6,7 +6,7 @@ Advanced AI-Powered Prompt Generation Custom Node for ComfyUI
 
 ## Overview
 
-**Pandom Prompt Builder for ComfyUI** is a professional-grade custom node that brings intelligent AI prompt generation directly into your ComfyUI workflows. This is an adapted version of the standalone [Pandom Prompt Builder](https://github.com/btitkin/promptbuilder) desktop application, redesigned to work seamlessly within ComfyUI's node-based interface.
+**Random Prompt Builder for ComfyUI** is a professional-grade custom node that brings intelligent AI prompt generation directly into your ComfyUI workflows. This is an adapted version of the standalone [Random Prompt Builder](https://github.com/btitkin/promptbuilder) desktop application, redesigned to work seamlessly within ComfyUI's node-based interface.
 
 Using local GGUF language models via `llama-cpp-python`, this node transforms simple descriptions into detailed, structured prompts optimized for various AI image generation models including Stable Diffusion, SDXL, Pony Diffusion, Flux, and more.
 
@@ -112,7 +112,7 @@ Organize your prompt into semantic components:
 ### Method 1: ComfyUI Manager (Recommended)
 
 1. Open ComfyUI Manager
-2. Search for "Pandom Prompt Builder" or "RandomPromptBuilder"
+2. Search for "Random Prompt Builder" or "RandomPromptBuilder"
 3. Click Install
 4. Restart ComfyUI
 
@@ -200,7 +200,7 @@ Place GGUF model files in the `ComfyUI/models/LLM/` directory.
 
 **Step 1: Add the Node**
 
-Right-click in ComfyUI → Add Node → Pandom → Random Prompt Builder (GGUF)
+Right-click in ComfyUI → Add Node → Random → Random Prompt Builder (GGUF)
 
 **Step 2: Connect Outputs**
 
@@ -559,7 +559,7 @@ Model loading takes 10-30 seconds on first use. This is normal and only happens 
 
 ## Differences from Main Application
 
-This ComfyUI node is adapted from the [Pandom Prompt Builder](https://github.com/btitkin/promptbuilder) desktop application.
+This ComfyUI node is adapted from the [Random Prompt Builder](https://github.com/btitkin/promptbuilder) desktop application.
 
 | Feature | Desktop App | ComfyUI Node |
 |---------|-------------|--------------|
@@ -625,7 +625,7 @@ This is helpful for reviewing prompts before they're encoded.
 
 MIT License - See LICENSE file for details.
 
-This project is a ComfyUI adaptation of the Pandom Prompt Builder desktop application. Both projects are developed by btitkin.
+This project is a ComfyUI adaptation of the Random Prompt Builder desktop application. Both projects are developed by btitkin.
 
 ---
 
@@ -653,7 +653,7 @@ When reporting issues, please include:
 
 ## Credits
 
-- Original Application: [Pandom Prompt Builder](https://github.com/btitkin/promptbuilder) by btitkin
+- Original Application: [Random Prompt Builder](https://github.com/btitkin/promptbuilder) by btitkin
 - ComfyUI: [ComfyUI](https://github.com/comfyanonymous/ComfyUI) by comfyanonymous
 - llama.cpp: [llama.cpp](https://github.com/ggerganov/llama.cpp) by Georgi Gerganov
 - llama-cpp-python: [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) by Andrei Betlen
@@ -662,7 +662,7 @@ When reporting issues, please include:
 
 ## Related Links
 
-- [Pandom Prompt Builder Desktop App](https://github.com/btitkin/promptbuilder)
+- [Random Prompt Builder Desktop App](https://github.com/btitkin/promptbuilder)
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - [GGUF Model Collection](https://huggingface.co/models?library=gguf&sort=trending)
 - [llama-cpp-python Documentation](https://llama-cpp-python.readthedocs.io/)
@@ -675,3 +675,4 @@ For questions, issues, or discussions:
 
 - GitHub Issues: [Report bugs or request features](https://github.com/yourusername/ComfyUI-RandomPromptBuilder/issues)
 - Discussions: [Ask questions and share workflows](https://github.com/yourusername/ComfyUI-RandomPromptBuilder/discussions)
+
